@@ -12,5 +12,7 @@ public class Cliente {
       throw new CafeQuenteException("Quente + " (temp-quente));
     if(temp < frio)
       throw new CafeQuenteException("Frio - " (temp-frio));      
+      
+    return true;
   }
 }
